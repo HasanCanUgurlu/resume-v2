@@ -21,24 +21,23 @@ const Navigation = styled.nav`
 const MenuButtonForMobile = styled.button`
   display: none;
   border: none;
-  cursor: pointer;
-  box-shadow: none;
   @media (max-width: 800px) {
     visibility: visible;
     display: block;
     position: fixed;
     background-color: transparent;
     text-decoration: none;
-    width: 15vw;
-    height: 7vh;
-    top: 3%;
-    left: 75%;
+    width: 25vw;
+    height: 14vh;
+    top: 1%;
+    left: 73%;
     font-size: 24px;
     font-family: "IBM Plex Mono", monospace;
     z-index: 5;
     outline-color: grey;
     box-shadow: none;
-    outline: ${(props) => props.isMenuActive && "none"};
+    outline: none;
+    cursor: pointer;
   }
 `;
 // KEYFRAMES FOR SMOOTH DOWN MOVE FOR NAVBAR
