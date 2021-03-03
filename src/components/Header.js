@@ -1,9 +1,3 @@
-// with this header my goal was to have a navbar that only has three children that
-// transforms to mobile friendly version on smaller displays
-// I couldn't get it to work with react hook by tracking the click event.
-// I tried to have two keystroke event for a down animation and up animation for nav
-// It was animating the nav but not the links.
-
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -37,7 +31,7 @@ const MenuButtonForMobile = styled.button`
     width: 15vw;
     height: 7vh;
     top: 3%;
-    left: 78%;
+    left: 65%;
     font-size: 24px;
     font-family: "IBM Plex Mono", monospace;
     z-index: 100;
