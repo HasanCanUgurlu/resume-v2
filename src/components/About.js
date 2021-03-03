@@ -36,7 +36,7 @@ const Intro = styled.div`
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 10;
+  z-index: 1;
   @media (max-width: 900px) {
     top: 12rem;
     padding: 25px;

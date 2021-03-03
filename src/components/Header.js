@@ -11,7 +11,7 @@ const Navigation = styled.nav`
   display: flex;
   flex-direction: row;
   width: 100vw;
-  z-index: 100;
+  z-index: 2;
   @media (max-width: 800px) {
     visibility: hidden;
     display: none;
@@ -22,6 +22,7 @@ const MenuButtonForMobile = styled.button`
   display: none;
   border: none;
   cursor: pointer;
+  box-shadow: none;
   @media (max-width: 800px) {
     visibility: visible;
     display: block;
@@ -31,10 +32,13 @@ const MenuButtonForMobile = styled.button`
     width: 15vw;
     height: 7vh;
     top: 3%;
-    left: 65%;
+    left: 75%;
     font-size: 24px;
     font-family: "IBM Plex Mono", monospace;
-    z-index: 100;
+    z-index: 5;
+    outline-color: grey;
+    box-shadow: none;
+    outline: ${(props) => props.isMenuActive && "none"};
   }
 `;
 // KEYFRAMES FOR SMOOTH DOWN MOVE FOR NAVBAR
@@ -99,7 +103,7 @@ const MobileNavigation = styled.nav`
     width: 100%;
     height: ${(props) => (props.isMenuActive ? "40vh" : "1px")};
     position: fixed;
-    z-index: 100;
+    z-index: 4;
     ${"" /* opacity: ${(props) => (props.isMenuActive ? "1" : "0")}; */}
     ${"" /* display: ${(props) => (props.isMenuActive ? "block" : "none")}; */}
     
@@ -159,16 +163,19 @@ function Header() {
           </Link>
         </NavLinks>
       </Navigation>
-      <MenuButtonForMobile onClick={() => setMenu(!isMenuActive)}>
+      <MenuButtonForMobile
+        isMenuActive={isMenuActive}
+        onClick={() => setMenu(!isMenuActive)}
+      >
         menu
       </MenuButtonForMobile>
       <MobileNavigation isMenuActive={isMenuActive}>
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           onClick={() => setMenu(!isMenuActive)}
           size={"2x"}
           icon={faTimes}
           style={{ color: "grey", margin: "5% 0 0 85%", cursor: "pointer" }}
-        />
+        /> */}
         <MobileNavLink isMenuActive={isMenuActive}>
           <Link style={styleForLink} to="/">
             projects
