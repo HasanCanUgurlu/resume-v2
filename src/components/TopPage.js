@@ -50,6 +50,7 @@ const SocialAnchorTag = styled.a`
   padding: 2%;
   transition: all 0.3s ease-in-out;
   display: inline-block;
+
   &:hover {
     cursor: pointer;
     color: ${(props) =>
@@ -59,6 +60,13 @@ const SocialAnchorTag = styled.a`
     -ms-transform: scale(1.5, 1.5); /* IE 9 */
     -webkit-transform: scale(1.5, 1.5); /* Safari */
     transform: scale(1.5, 1.5);
+  }
+
+  &:visited {
+    color: ${(props) =>
+      (props.twitter && "#0b76b8") ||
+      (props.facebook && "#1196f5") ||
+      (props.linkedin && "#08529b")};
   }
 `;
 const scrollDown = keyframes`
@@ -90,13 +98,26 @@ function TopPage() {
           I like to solve algorithm problems and check out new technologies.
           <br />I love coding in <strong>JavaScript and Python</strong>
         </StyledP>
-        <SocialAnchorTag twitter>
+        <SocialAnchorTag
+          href="https://twitter.com/hasancanugurlu"
+          target="_blank"
+          twitter
+        >
           <FontAwesomeIcon size={"2x"} icon={faTwitter} />
         </SocialAnchorTag>
-        <SocialAnchorTag facebook middleButton>
+        <SocialAnchorTag
+          href="https://www.facebook.com/profile.php?id=100007278077277"
+          target="_blank"
+          facebook
+          middleButton
+        >
           <FontAwesomeIcon size={"2x"} icon={faFacebook} />
         </SocialAnchorTag>
-        <SocialAnchorTag linkedin>
+        <SocialAnchorTag
+          href="https://www.linkedin.com/in/hasan-ugurlu-6993051b3/"
+          target="_blank"
+          linkedin
+        >
           <FontAwesomeIcon size={"2x"} icon={faLinkedin} />
         </SocialAnchorTag>
         <DownArrowDiv>
