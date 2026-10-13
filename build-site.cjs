@@ -11,9 +11,11 @@ const publicFiles = [
   "ambience.js",
   "mobile.js",
   "assets",
+  "resume.pdf",
+  "robots.txt",
 ];
 
-// Package the island at the domain root without publishing drafts or tests.
+// Publish the island without development files or retained story drafts.
 fs.rmSync(destination, { recursive: true, force: true });
 fs.mkdirSync(destination, { recursive: true });
 for (const file of publicFiles) {
@@ -21,12 +23,4 @@ for (const file of publicFiles) {
     recursive: true,
   });
 }
-fs.copyFileSync(
-  path.join(__dirname, "..", "resume.pdf"),
-  path.join(destination, "resume.pdf"),
-);
-fs.copyFileSync(
-  path.join(__dirname, "..", "public", "robots.txt"),
-  path.join(destination, "robots.txt"),
-);
-console.log("Packaged the pixel island in pixel-map/dist.");
+console.log("Packaged the pixel island in dist.");

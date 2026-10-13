@@ -1,5 +1,5 @@
 [build]
-  base = "pixel-map"
+  base = "."
   command = "node build-site.cjs"
   publish = "dist"
 
