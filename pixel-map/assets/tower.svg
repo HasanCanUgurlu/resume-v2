@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="72" viewBox="0 0 64 72" shape-rendering="crispEdges">
+<path fill="#71824e" d="M11 64h44v4H11Z"/>
+<path fill="#3e3037" d="M22 30h20v30h5v5H17v-5h5Z"/>
+<path fill="#94a18b" d="M26 32h12v30H26Z"/><path fill="#697d6b" d="M34 32h4v30h-4Z"/>
+<path fill="#3e3037" d="M17 32h30v5H17Zm12 10h5v8h-5ZM28 56h7v9h-7Z"/>
+<path fill="#bdd0aa" d="M30 44h2v4h-2Z"/><path fill="#cab689" d="M24 38h14v2H24Zm0 13h14v2H24Z"/>
+<!-- Only the head moves; the lookout structure stays grounded. -->
+<g class="robot-head">
+<path fill="#3e3037" d="M30 5h4v9h-4Zm4-3h6v5h-6Z"/><path class="tower-beacon" fill="#c66d4f" d="M34 0h7v5h-7Z"/>
+<path fill="#3e3037" d="M12 10h40v5h5v14h-5v6H12v-6H7V15h5Z"/>
+<path fill="#aabca4" d="M16 13h32v19H16Z"/><path fill="#718d7a" d="M44 13h4v19h-4Z"/>
+<path fill="#bcb496" d="M10 18h4v8h-4Zm40 0h4v8h-4Z"/>
+<path fill="#d3d4b2" d="M16 13h28v3H16Z"/>
+<path fill="#3e4840" d="M19 18h26v11H19Z"/>
+<path class="robot-wink" fill="#9cd1bb" d="M22 20h6v4h-6Z"/>
+<path class="robot-eye" fill="#9cd1bb" d="M36 20h6v4h-6Z"/>
+<path fill="#d1d8af" d="M28 26h8v2h-8Z"/>
+<path fill="#718d7a" d="M17 28h2v2h-2Zm28 0h2v2h-2Z"/>
+</g>
+</svg>

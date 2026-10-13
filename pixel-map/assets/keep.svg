@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="72" viewBox="0 0 64 72" shape-rendering="crispEdges"><path fill="#71824e" d="M0 63h64v5H0Z"/><path fill="#3e3037" d="M4 18h18v12h20V18h18v45H4Z"/><path fill="#94a196" d="M8 22h10v34H8Zm38 0h10v34H46ZM20 34h24v25H20Z"/>
+<path fill="#67796e" d="M15 22h3v34h-3Zm37 0h4v34h-4ZM38 34h6v25h-6Z"/>
+<path fill="#3e3037" d="M4 10h5v5h4v-5h5v5h4v9H4Zm38 0h5v5h4v-5h5v5h4v9H42ZM22 26h5v4h5v-4h5v4h5v8H22Z"/>
+<path fill="#3e3037" d="M11 29h5v10h-5Zm37 0h5v10h-5ZM26 45h12v18H26ZM29 41h6v4h-6Z"/>
+<path fill="#78887a" d="M8 44h10v2H8Zm38 0h10v2H46ZM21 40h7v2h-7Zm15 0h7v2h-7ZM8 54h8v2H8Zm40 0h8v2h-8Z"/>
+<path fill="#b09b75" d="M28 49h8v12h-8Z"/><path fill="#53483c" d="M30 49h2v12h-2Zm4 0h2v12h-2Z"/>
+<path fill="#3e3037" d="M48 0h3v11h-3Z"/><g class="keep-flag" fill="#c9674a"><path d="M51 1h4v6h-4Z"/><path class="flag-middle" d="M55 1h4v6h-4Z"/><path class="flag-tip" fill="#db8055" d="M59 1h4v3h-3v3h-1Z"/></g></svg>

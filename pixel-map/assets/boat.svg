@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="72" viewBox="-30 -44 80 72" shape-rendering="crispEdges"><g class="boat-wake" fill="none" stroke="#abd0c1" stroke-width="1.3" opacity=".4"><path d="M-21 20h8m6 1H5m8-1h9M27 8h9m-5 5h10m-14 5h6"/></g><g class="boat-float"><path fill="#493e37" d="M-25 4h49v3h-3v3h-3v3h-4v3h-25v-2h-4v-3h-4V8h-3V6h-3Z"/>
+<path fill="#a76c48" d="M-21 7h40v2h-3v3h-4v2H-9v-2h-4V9h-5V8h-3Z"/>
+<path fill="#c58f58" d="M-18 8h33v3h-29V9h-4Z"/>
+<!-- A shallow perspective deck, with boards and a shaded raised rim. -->
+<path fill="#67503b" d="M-20-1h40v1h3v2h2v4h-50V2h2V0h3Z"/>
+<path fill="#d7b881" d="M-20 0h40v1h3v3h-46V1h3Z"/>
+<path fill="#edcf96" d="M-19 0h38v1h-38ZM-22 2h43v1h-43Z"/>
+<path fill="#af8c5e" d="M-17 1h1v1h-1Zm10 0h1v1h-1Zm10 0h1v1H3ZM-12 3h1v1h-1Zm10 0h1v1h-1Zm12 0h1v1h-1Z"/>
+<path fill="#edcf96" d="M-24 4h48v1h-48Z"/>
+<path fill="#ab8051" d="M-24 5h48v1h-48Z"/>
+<path fill="#75553c" d="M-6 9h1v4h-1Zm15 0h1v4H9Z"/>
+<!-- A compact cabin and two glazed windows give the deck a clear scale. -->
+<path fill="#493e37" d="M4-5h16V5H4Z"/><path fill="#d9c599" d="M6-3h12v7H6Z"/>
+<path fill="#837c5c" d="M3-6h18v2H3Z"/>
+<path fill="#426d70" d="M7-1h4v3H7Zm7 0h3v3h-3Z"/>
+<path fill="#98bcb0" d="M7-1h2v1H7Zm7 0h2v1h-2Z"/>
+<!-- Smaller pixel steps keep the sail silhouette light. -->
+<path fill="#6b6651" d="M-5-34h1v25h-19v-3h2v-3h2v-3h2v-3h2v-3h2v-3h2v-3h2v-3h2Z"/>
+<path fill="#f8edc8" d="M-6-31h1v21h-15v-2h2v-3h2v-3h2v-3h2v-3h2v-3h2Z"/>
+<path fill="#e4d7ac" d="M-7-28h2v18h-3v-13h1Z"/>
+<path fill="#6b6651" d="M0-31h2v3h2v3h2v3h2v3h2v3h2v3h2v3H0Z"/>
+<path fill="#f1dfb2" d="M1-27h2v3h2v3h2v3h2v3h2v3H1Z"/>
+<path fill="#e0c991" d="M1-20h1v11H1Z"/>
+<path fill="#594b3d" d="M-3-38h2V4h-2Zm-18 30h33v1h-33Z"/>
+<path fill="#c76d4d" d="M-1-37h9v2H5v2H-1Z"/>
+<path fill="#e49b69" d="M-1-37h6v1H-1Z"/>
+<path fill="none" stroke="#b7ad85" stroke-width=".75" d="M-3-30-22 3M-1-23 20 3"/>
+<!-- Low foredeck railing, tied into the rim rather than floating posts. -->
+<path fill="#725e42" d="M-21-2h1v6h-1Zm8 0h1v6h-1Zm8 0h1v6h-1Zm26 0h1v6h-1Z"/>
+<path fill="#e6d4a6" d="M-21-2h17v1h-17Zm42 0h2v1h-2Z"/>
+<path fill="#b69866" d="M-17 0h7v2h-7Z"/><path fill="#dac08a" d="M-16 0h5v1h-5Z"/></g></svg>

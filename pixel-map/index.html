@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" /><meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#1c302a" /><meta
+      name="description"
+      content="Explore Hasan Ugurlu’s work: frontend engineering, product impact, and building CaseHuddle. A small world of things I’ve built."
+    />
+    <title>Hasan Ugurlu — A world of work</title>
+    <link rel="preload" as="image" href="assets/duckhive-bunny/Idle.png" /><link
+      rel="preload"
+      as="image"
+      href="assets/duckhive-bunny/Walk.png"
+    /><link rel="preload" as="image" href="assets/duckhive-bunny/Turn.png" />
+    <link
+      rel="icon"
+      href="assets/favicon.svg?v=1"
+      type="image/svg+xml"
+      sizes="any"
+    /><link rel="stylesheet" href="map.css?v=27" />
+    <script src="stories.js?v=3" defer></script
+    ><script src="map.js?v=21" defer></script
+    ><script src="wildlife.js?v=13" defer></script
+    ><script src="ambience.js?v=9" defer></script
+    ><script src="mobile.js?v=2" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#intro">Open introduction</a>
+    <header class="topbar"
+      ><a class="identity" href="#intro"
+        ><span>HASAN UGURLU<small>Senior Frontend Engineer</small></span></a
+      ><nav class="header-actions" aria-label="Contact and resume"
+        ><a class="contact-link" href="mailto:hasancan.ugurlu@gmail.com"
+          >Say hello ↗</a
+        ><a class="resume" href="../resume.pdf" download
+          >↓ <span>Save resume</span><small>.PDF</small></a
+        ></nav
+      ></header
+    >
+    <main class="explorer">
+      <section class="map-column" aria-label="Interactive map of my work">
+        <h1 class="sr-only">Hasan Ugurlu — a world of work</h1>
+        <div class="world" id="world">
+          <svg
+            class="landscape"
+            viewBox="0 0 1000 760"
+            role="group"
+            aria-label="An illustrated island with forests, mountain peaks, and six connected work destinations."
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <defs>
+              <pattern
+                id="sea"
+                width="100"
+                height="65"
+                patternUnits="userSpaceOnUse"
+              >
+                <path
+                  d="M12 18h13m45 28h18"
+                  stroke="#75b3b0"
+                  stroke-width="3"
+                  opacity=".4"
+                />
+              </pattern>
+              <pattern
+                id="grass"
+                width="62"
+                height="56"
+                patternUnits="userSpaceOnUse"
+              >
+                <path
+                  d="M9 19v-4m5 4v-6m30 28h4"
+                  stroke="#6a984e"
+                  stroke-width="3"
+                  opacity=".48"
+                />
+              </pattern>
+              <path
+                id="island"
+                d="M95 270h25v-70h40v-40h65v-30h100v-30h210v35h100v30h70v45h55v40h40v85h-30v45h-65v55h-75v50h-60v75h-70v40H340v-20H225v-35h-90v-45H85V360H65v-55h30Z"
+              />
+              <g id="pine">
+                <path d="M-4 0h8v-17h-8" fill="#6d5035" />
+                <path
+                  d="M-24-14h48v-13H16v-12H9v-13H-9v13h-7v12h-8Z"
+                  fill="#315c3e"
+                />
+                <path d="M-16-27h16v-12h9v-13H-9v13h-7Z" fill="#4e7f49" />
+              </g>
+              <g id="mountain">
+                <path
+                  d="M-82 0v-20h17v-22h17v-22h17v-22h16v-22H0v-20h16v20h16v22h17v22h17v22h17v22h17V0Z"
+                  fill="#71857d"
+                />
+                <path
+                  d="M16-128v20h16v22h17v22h17v22h17v22h17V0H16Z"
+                  fill="#536d66"
+                />
+                <path
+                  d="M-15-86v-22H0v-20h16v20h16v22h17v22H32v-10H16v10H0v-12h-15v12h-16v-22Z"
+                  fill="#e8ecdc"
+                />
+              </g>
+            </defs>
+            <rect width="1000" height="760" fill="#589897" />
+            <rect class="water" width="1000" height="760" fill="url(#sea)" />
+            <g
+              id="coast-waves"
+              aria-hidden="true"
+              fill="none"
+              stroke="#a5d0bc"
+              stroke-width="2"
+            >
+              <path
+                class="shore-wave"
+                d="M361 79h42"
+                style="--wave-delay: -0s; --wave-x: 0px; --wave-y: -3px"
+              />
+              <path
+                class="shore-wave"
+                d="M458 77h38"
+                style="--wave-delay: -3s; --wave-x: 0px; --wave-y: -3px"
+              />
+              <path
+                class="shore-wave"
+                d="M557 117h35"
+                style="--wave-delay: -6s; --wave-x: 0px; --wave-y: -2px"
+              />
+              <path
+                class="shore-wave"
+                d="M97 213v29"
+                style="--wave-delay: -2s; --wave-x: -3px; --wave-y: 0px"
+              />
+              <path
+                class="shore-wave"
+                d="M46 316v28"
+                style="--wave-delay: -5s; --wave-x: -3px; --wave-y: 0px"
+              />
+              <path
+                class="shore-wave"
+                d="M66 398v34"
+                style="--wave-delay: -8s; --wave-x: -2px; --wave-y: 0px"
+              />
+              <path
+                class="shore-wave"
+                d="M254 599h33"
+                style="--wave-delay: -4s; --wave-x: 0px; --wave-y: 3px"
+              />
+              <path
+                class="shore-wave"
+                d="M368 621h37"
+                style="--wave-delay: -7s; --wave-x: 0px; --wave-y: 3px"
+              />
+              <path
+                class="shore-wave"
+                d="M817 281v29"
+                style="--wave-delay: -1s; --wave-x: 3px; --wave-y: 0px"
+              />
+              <path
+                class="shore-wave"
+                d="M973 563v31"
+                style="--wave-delay: -6s; --wave-x: 3px; --wave-y: 0px"
+              />
+              <path
+                class="shore-wave"
+                d="M831 680h31"
+                style="--wave-delay: -9s; --wave-x: 0px; --wave-y: 3px"
+              />
+            </g>
+            <use href="#island" transform="translate(0 17)" fill="#365f54" />
+            <use
+              href="#island"
+              fill="#dec98b"
+              stroke="#9fb993"
+              stroke-width="16"
+              stroke-linejoin="miter"
+            />
+            <use
+              href="#island"
+              fill="#8eb568"
+              stroke="#c8cc88"
+              stroke-width="6"
+            />
+            <use href="#island" fill="url(#grass)" />
+            <!-- A smaller island for the product built from scratch. -->
+            <path
+              d="M725 500h40v-30h105v25h55v35h30v95h-35v35H785v-20h-70v-45h-20v-65h30Z"
+              fill="#365f54"
+              transform="translate(0 12)"
+            />
+            <path
+              d="M725 500h40v-30h105v25h55v35h30v95h-35v35H785v-20h-70v-45h-20v-65h30Z"
+              fill="#93b777"
+              stroke="#daca94"
+              stroke-width="10"
+            />
+            <!-- Continuous sand on land; timber only where the route crosses the sea. -->
+            <image
+              href="assets/roads.svg"
+              x="0"
+              y="0"
+              width="1000"
+              height="760"
+            />
+            <g
+              id="commons-bridge"
+              shape-rendering="crispEdges"
+              aria-hidden="true"
+            >
+              <path
+                fill="#78694c"
+                d="M560 480h10v2H560ZM558 482h20v2H558ZM556 484h30v2H556ZM554 486h40v2H554ZM554 488h48v2H554ZM554 490h56v2H554ZM554 492h62v2H554ZM554 494h70v2H554ZM556 496h76v2H556ZM558 498h82v2H558ZM560 500h86v2H560ZM568 502h86v2H568ZM576 504h84v2H576ZM584 506h84v2H584ZM590 508h84v2H590ZM598 510h82v2H598ZM606 512h82v2H606ZM614 514h80v2H614ZM622 516h78v2H622ZM630 518h78v2H630ZM636 520h78v2H636ZM644 522h74v2H644ZM650 524h74v2H650ZM658 526h70v2H658ZM664 528h68v2H664ZM670 530h64v2H670ZM678 532h56v2H678ZM684 534h50v2H684ZM690 536h46v2H690ZM698 538h36v2H698ZM704 540h30v2H704ZM710 542h24v2H710ZM714 544h18v2H714ZM720 546h8v2H720Z"
+              />
+              <path
+                fill="#8b7955"
+                d="M560 476h10v2H560ZM558 478h20v2H558ZM556 480h30v2H556ZM554 482h40v2H554ZM554 484h48v2H554ZM554 486h56v2H554ZM554 488h62v2H554ZM554 490h70v2H554ZM556 492h76v2H556ZM558 494h82v2H558ZM560 496h86v2H560ZM568 498h86v2H568ZM576 500h84v2H576ZM584 502h84v2H584ZM590 504h84v2H590ZM598 506h82v2H598ZM606 508h82v2H606ZM614 510h80v2H614ZM622 512h78v2H622ZM630 514h78v2H630ZM636 516h78v2H636ZM644 518h74v2H644ZM650 520h74v2H650ZM658 522h70v2H658ZM664 524h68v2H664ZM670 526h64v2H670ZM678 528h56v2H678ZM684 530h50v2H684ZM690 532h46v2H690ZM698 534h36v2H698ZM704 536h30v2H704ZM710 538h24v2H710ZM714 540h18v2H714ZM720 542h8v2H720Z"
+              />
+              <path
+                fill="#c6a976"
+                d="M560 478h10v2H560ZM558 480h20v2H558ZM556 482h30v2H556ZM556 484h38v2H556ZM556 486h46v2H556ZM556 488h52v2H556ZM556 490h60v2H556ZM558 492h66v2H558ZM560 494h72v2H560ZM568 496h72v2H568ZM576 498h70v2H576ZM584 500h70v2H584ZM592 502h68v2H592ZM598 504h68v2H598ZM606 506h68v2H606ZM614 508h66v2H614ZM622 510h66v2H622ZM630 512h64v2H630ZM638 514h62v2H638ZM644 516h64v2H644ZM650 518h62v2H650ZM658 520h60v2H658ZM664 522h60v2H664ZM670 524h58v2H670ZM678 526h52v2H678ZM684 528h48v2H684ZM692 530h40v2H692ZM698 532h36v2H698ZM704 534h28v2H704ZM710 536h22v2H710ZM714 538h16v2H714ZM720 540h8v2H720Z"
+              />
+              <path
+                fill="#a3875c"
+                d="M560 478h8v2H560ZM558 480h10v2H558ZM576 480h2v2H576ZM556 482h12v2H556ZM576 482h2v2H576ZM584 482h2v2H584ZM556 484h12v2H556ZM574 484h2v2H574ZM584 484h2v2H584ZM556 486h10v2H556ZM574 486h2v2H574ZM584 486h2v2H584ZM592 486h2v2H592ZM556 488h10v2H556ZM574 488h2v2H574ZM592 488h2v2H592ZM602 488h2v2H602ZM556 490h10v2H556ZM574 490h2v2H574ZM582 490h2v2H582ZM592 490h2v2H592ZM610 490h2v2H610ZM558 492h8v2H558ZM572 492h2v2H572ZM582 492h2v2H582ZM592 492h2v2H592ZM600 492h2v2H600ZM610 492h2v2H610ZM560 494h4v2H560ZM572 494h2v2H572ZM582 494h2v2H582ZM590 494h2v2H590ZM600 494h2v2H600ZM610 494h2v2H610ZM618 494h2v2H618ZM628 494h2v2H628ZM572 496h2v2H572ZM590 496h2v2H590ZM600 496h2v2H600ZM608 496h2v2H608ZM618 496h2v2H618ZM628 496h2v2H628ZM636 496h2v2H636ZM580 498h2v2H580ZM590 498h2v2H590ZM608 498h2v2H608ZM618 498h2v2H618ZM626 498h2v2H626ZM636 498h2v2H636ZM590 500h2v2H590ZM598 500h2v2H598ZM608 500h2v2H608ZM626 500h2v2H626ZM636 500h2v2H636ZM646 500h2v2H646ZM598 502h2v2H598ZM608 502h2v2H608ZM616 502h2v2H616ZM626 502h2v2H626ZM636 502h2v2H636ZM644 502h2v2H644ZM654 502h2v2H654ZM598 504h2v2H598ZM606 504h2v2H606ZM616 504h2v2H616ZM626 504h2v2H626ZM634 504h2v2H634ZM644 504h2v2H644ZM654 504h2v2H654ZM662 504h2v2H662ZM606 506h2v2H606ZM616 506h2v2H616ZM624 506h2v2H624ZM634 506h2v2H634ZM644 506h2v2H644ZM652 506h2v2H652ZM662 506h2v2H662ZM672 506h2v2H672ZM624 508h2v2H624ZM634 508h2v2H634ZM642 508h2v2H642ZM652 508h2v2H652ZM662 508h2v2H662ZM624 510h2v2H624ZM642 510h2v2H642ZM652 510h2v2H652ZM670 510h2v2H670ZM680 510h2v2H680ZM632 512h2v2H632ZM642 512h2v2H642ZM660 512h2v2H660ZM670 512h2v2H670ZM680 512h2v2H680ZM688 512h2v2H688ZM650 514h2v2H650ZM660 514h2v2H660ZM670 514h2v2H670ZM678 514h2v2H678ZM688 514h2v2H688ZM698 514h2v2H698ZM650 516h2v2H650ZM660 516h2v2H660ZM668 516h2v2H668ZM678 516h2v2H678ZM688 516h2v2H688ZM696 516h2v2H696ZM706 516h2v2H706ZM650 518h2v2H650ZM658 518h2v2H658ZM668 518h2v2H668ZM678 518h2v2H678ZM686 518h2v2H686ZM696 518h2v2H696ZM706 518h2v2H706ZM658 520h2v2H658ZM668 520h2v2H668ZM676 520h2v2H676ZM686 520h2v2H686ZM696 520h2v2H696ZM666 522h2v2H666ZM676 522h2v2H676ZM686 522h2v2H686ZM704 522h2v2H704ZM714 522h2v2H714ZM676 524h2v2H676ZM694 524h2v2H694ZM704 524h2v2H704ZM714 524h2v2H714ZM724 524h2v2H724ZM684 526h2v2H684ZM694 526h2v2H694ZM704 526h2v2H704ZM712 526h2v2H712ZM722 526h2v2H722ZM684 528h2v2H684ZM694 528h2v2H694ZM702 528h2v2H702ZM712 528h2v2H712ZM722 528h2v2H722ZM692 530h2v2H692ZM702 530h2v2H702ZM712 530h2v2H712ZM720 530h2v2H720ZM702 532h2v2H702ZM710 532h2v2H710ZM720 532h2v2H720ZM710 534h2v2H710ZM720 534h2v2H720ZM718 536h2v2H718ZM718 538h2v2H718Z"
+              />
+            </g>
+            <path
+              id="journey-trail"
+              d=""
+              fill="none"
+              stroke="#fff0ad"
+              stroke-width="5"
+              stroke-linecap="square"
+            />
+            <!-- Launch Harbor: a pier follows the shoreline, with a small outbound sailboat. -->
+            <g aria-hidden="true">
+              <g id="harbor-pier" shape-rendering="crispEdges">
+                <!-- Timber is drawn on the same coarse pixel grid as the surrounding island. -->
+                <path
+                  fill="#69543c"
+                  d="M162 489h3v12h-3Zm-21 12h3v12h-3ZM93 516h3v12h-3Zm30 0h3v12h-3Z"
+                />
+                <path
+                  fill="#946d48"
+                  d="M174 474h9v3H174ZM168 477h15v3H168ZM165 480h21v3H165ZM159 483h27v3H159ZM153 486h33v3H153ZM147 489h33v3H147ZM141 492h33v3H141ZM135 495h33v3H135ZM129 498h36v3H129ZM123 501h36v3H123ZM117 504h36v3H117ZM111 507h36v3H111ZM111 510h30v3H111ZM114 513h21v3H114ZM114 516h15v3H114ZM117 519h6v3H117Z"
+                />
+                <path
+                  fill="#c5a16c"
+                  d="M174 468h9v3H174ZM168 471h15v3H168ZM165 474h21v3H165ZM159 477h27v3H159ZM153 480h33v3H153ZM147 483h33v3H147ZM141 486h33v3H141ZM135 489h33v3H135ZM129 492h36v3H129ZM123 495h36v3H123ZM117 498h36v3H117ZM111 501h36v3H111ZM111 504h30v3H111ZM114 507h21v3H114ZM114 510h15v3H114ZM117 513h6v3H117Z"
+                />
+                <path
+                  fill="#a98457"
+                  d="M180 468h3v3H180ZM168 471h3v3H168ZM180 471h3v3H180ZM171 474h3v3H171ZM183 474h3v3H183ZM162 477h3v3H162ZM171 477h3v3H171ZM183 477h3v3H183ZM162 480h3v3H162ZM174 480h3v3H174ZM153 483h3v3H153ZM165 483h3v3H165ZM174 483h3v3H174ZM144 486h3v3H144ZM153 486h3v3H153ZM165 486h3v3H165ZM144 489h3v3H144ZM156 489h3v3H156ZM135 492h3v3H135ZM147 492h3v3H147ZM156 492h3v3H156ZM126 495h3v3H126ZM147 495h3v3H147ZM126 498h3v3H126ZM138 498h3v3H138ZM150 498h3v3H150ZM117 501h3v3H117ZM129 501h3v3H129ZM129 504h3v3H129ZM120 507h3v3H120ZM132 507h3v3H132ZM123 510h3v3H123Z"
+                />
+                <path
+                  fill="#d8b681"
+                  d="M165 474h6v3H165ZM159 477h3v3H159ZM165 477h3v3H165ZM135 489h9v3H135ZM129 492h6v3H129ZM129 495h3v3H129Z"
+                />
+                <path fill="#946d48" d="M93 507h33v3h3v3h3v9H87v-9h3v-3h3Z" />
+                <path fill="#c5a16c" d="M93 501h33v3h3v3h3v9H87v-9h3v-3h3Z" />
+                <path fill="#a98457" d="M90 507h39v3H90Zm-3 6h45v3H87Z" />
+                <path fill="#d8b681" d="M96 501h15v3H96Z" />
+                <path fill="#68563f" d="M93 510h3v9h-3Zm30 0h3v9h-3Z" />
+                <path fill="#bca276" d="M93 510h3v3h-3Zm30 0h3v3h-3Z" />
+              </g>
+              <g transform="translate(95 531)">
+                <g id="harbor-ship">
+                  <g
+                    class="boat-wake"
+                    fill="none"
+                    stroke="#abd0c1"
+                    stroke-width="1.3"
+                    opacity=".4"
+                  >
+                    <path d="M-21 20h8m6 1H5m8-1h9M27 8h9m-5 5h10m-14 5h6" />
+                  </g>
+                  <g class="boat-float">
+                    <path
+                      fill="#493e37"
+                      d="M-25 4h49v3h-3v3h-3v3h-4v3h-25v-2h-4v-3h-4V8h-3V6h-3Z"
+                    />
+                    <path
+                      fill="#a76c48"
+                      d="M-21 7h40v2h-3v3h-4v2H-9v-2h-4V9h-5V8h-3Z"
+                    />
+                    <path fill="#c58f58" d="M-18 8h33v3h-29V9h-4Z" />
+                    <!-- A shallow perspective deck, with boards and a shaded raised rim. -->
+                    <path fill="#67503b" d="M-20-1h40v1h3v2h2v4h-50V2h2V0h3Z" />
+                    <path fill="#d7b881" d="M-20 0h40v1h3v3h-46V1h3Z" />
+                    <path fill="#edcf96" d="M-19 0h38v1h-38ZM-22 2h43v1h-43Z" />
+                    <path
+                      fill="#af8c5e"
+                      d="M-17 1h1v1h-1Zm10 0h1v1h-1Zm10 0h1v1H3ZM-12 3h1v1h-1Zm10 0h1v1h-1Zm12 0h1v1h-1Z"
+                    />
+                    <path fill="#edcf96" d="M-24 4h48v1h-48Z" />
+                    <path fill="#ab8051" d="M-24 5h48v1h-48Z" />
+                    <path fill="#75553c" d="M-6 9h1v4h-1Zm15 0h1v4H9Z" />
+                    <!-- A compact cabin and two glazed windows give the deck a clear scale. -->
+                    <path fill="#493e37" d="M4-5h16V5H4Z" />
+                    <path fill="#d9c599" d="M6-3h12v7H6Z" />
+                    <path fill="#837c5c" d="M3-6h18v2H3Z" />
+                    <path fill="#426d70" d="M7-1h4v3H7Zm7 0h3v3h-3Z" />
+                    <path fill="#98bcb0" d="M7-1h2v1H7Zm7 0h2v1h-2Z" />
+                    <!-- Smaller pixel steps keep the sail silhouette light. -->
+                    <path
+                      fill="#6b6651"
+                      d="M-5-34h1v25h-19v-3h2v-3h2v-3h2v-3h2v-3h2v-3h2v-3h2v-3h2Z"
+                    />
+                    <path
+                      fill="#f8edc8"
+                      d="M-6-31h1v21h-15v-2h2v-3h2v-3h2v-3h2v-3h2v-3h2Z"
+                    />
+                    <path fill="#e4d7ac" d="M-7-28h2v18h-3v-13h1Z" />
+                    <path
+                      fill="#6b6651"
+                      d="M0-31h2v3h2v3h2v3h2v3h2v3h2v3h2v3H0Z"
+                    />
+                    <path fill="#f1dfb2" d="M1-27h2v3h2v3h2v3h2v3h2v3H1Z" />
+                    <path fill="#e0c991" d="M1-20h1v11H1Z" />
+                    <path fill="#594b3d" d="M-3-38h2V4h-2Zm-18 30h33v1h-33Z" />
+                    <path fill="#c76d4d" d="M-1-37h9v2H5v2H-1Z" />
+                    <path fill="#e49b69" d="M-1-37h6v1H-1Z" />
+                    <path
+                      fill="none"
+                      stroke="#b7ad85"
+                      stroke-width=".75"
+                      d="M-3-30-22 3M-1-23 20 3"
+                    />
+                    <!-- Low foredeck railing, tied into the rim rather than floating posts. -->
+                    <path
+                      fill="#725e42"
+                      d="M-21-2h1v6h-1Zm8 0h1v6h-1Zm8 0h1v6h-1Zm26 0h1v6h-1Z"
+                    />
+                    <path fill="#e6d4a6" d="M-21-2h17v1h-17Zm42 0h2v1h-2Z" />
+                    <path fill="#b69866" d="M-17 0h7v2h-7Z" />
+                    <path fill="#dac08a" d="M-16 0h5v1h-5Z" />
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g opacity=".95" transform="translate(250 105) scale(.55)">
+              <use href="#mountain" x="555" y="155" />
+              <use href="#mountain" x="425" y="159" />
+              <use href="#mountain" x="490" y="139" />
+            </g>
+            <g id="wildlife-shelters" aria-hidden="true"></g>
+            <g
+              id="trees"
+              role="button"
+              tabindex="0"
+              aria-label="Trees — shake a tree to drop leaves"
+            ></g>
+
+            <text
+              x="110"
+              y="640"
+              class="map-lettering"
+              transform="rotate(-7 110 640)"
+            >
+              THE OPEN SEA
+            </text>
+            <text x="788" y="710" class="map-lettering">NEW HORIZONS</text>
+            <g
+              class="map-compass"
+              transform="translate(915 190)"
+              shape-rendering="crispEdges"
+              aria-hidden="true"
+            >
+              <path
+                fill="#c5d1af"
+                d="M0-5h7v2h9v1h7v4h-7v1H7v2H0ZM0-5h-7v2h-9v1h-7v4h7v1h9v2H0Z"
+              />
+              <path fill="#a6bda6" d="M-5 0h10v7H3v9H2v7h-4v-7h-1V7h-2Z" />
+              <path fill="#eee4b7" d="M-2-25h4v10h2v9h2v6H-6v-6h2v-9h2Z" />
+              <path fill="#b8c4a1" d="M-2-25v10h-2v9h-2v6h6v-25Z" />
+              <path fill="#527d73" d="M-5-5H5V5H-5Z" />
+              <path fill="#e9dfb4" d="M-2-2h4v4h-4Z" />
+              <text
+                x="0"
+                y="-35"
+                text-anchor="middle"
+                fill="#e9dfb4"
+                style="font-family: Pixel, monospace; font-size: 7px"
+              >
+                N
+              </text>
+              <g
+                fill="#cfdbc0"
+                opacity=".75"
+                text-anchor="middle"
+                style="font-family: Pixel, monospace; font-size: 5px"
+              >
+                <text x="34" y="2">E</text>
+                <text x="0" y="35">S</text>
+                <text x="-34" y="2">W</text>
+              </g>
+            </g>
+          </svg>
+          <svg
+            class="wildlife-layer"
+            viewBox="0 0 1000 760"
+            width="1000"
+            height="760"
+            role="group"
+            aria-label="Island wildlife"
+            focusable="false"
+            shape-rendering="crispEdges"
+          >
+            <g id="wildlife"></g>
+          </svg>
+          <svg
+            class="ambience-layer"
+            viewBox="0 0 1000 760"
+            width="1000"
+            height="760"
+            role="group"
+            aria-label="Seabirds"
+            focusable="false"
+            shape-rendering="crispEdges"
+          >
+            <g id="ambience"></g>
+          </svg>
+          <nav class="destinations" aria-label="Choose a work story">
+            <a
+              class="destination"
+              style="--x: 19.5%; --y: 61.84%"
+              href="#product"
+              data-stop="product"
+              aria-label="Launch Harbor: Product impact"
+              ><span class="place landmark-art harbor-art" aria-hidden="true"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="72"
+                  viewBox="0 0 64 72"
+                  shape-rendering="crispEdges"
+                >
+                  <path fill="#71824e" d="M2 61h60v7H2Z" />
+                  <path fill="#a4a168" d="M6 61h52v3H6Z" />
+                  <path fill="#3e3037" d="M12 26h42v37H12Z" />
+                  <path fill="#cab68a" d="M16 30h34v29H16Z" />
+                  <path fill="#a58e6b" d="M44 30h6v29h-6Z" />
+                  <path fill="#3e3037" d="M41 5h10v17H41Z" />
+                  <path fill="#b97551" d="M43 7h6v13h-6Z" />
+                  <path fill="#dcaa78" d="M43 10h6v1h-6Zm0 5h6v1h-6Z" />
+                  <path fill="#3e3037" d="M40 3h12v4H40Z" />
+                  <path fill="#3e3037" d="M8 24h4v-6h8v-6h28v6h8v6h4v8H8Z" />
+                  <path fill="#46746c" d="M12 24h8v-6h28v6h8v4H12Z" />
+                  <path fill="#69968a" d="M20 18h28v4H20Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M18 35h10v12H18Zm22 0h10v12H40ZM28 44h12v19H28Z"
+                  />
+                  <path
+                    class="window-light"
+                    fill="#9bbbb0"
+                    d="M20 37h6v8h-6Zm22 0h6v8h-6Z"
+                  />
+                  <path fill="#536454" d="M30 46h8v15h-8Z" />
+                  <path fill="#b6a67b" d="M33 46h2v15h-2Z" />
+                  <path fill="#3e3037" d="M0 48h14v16H0Zm48 5h16v11H48Z" />
+                  <path fill="#b88655" d="M3 51h8v10H3Zm48 5h10v5H51Z" />
+                  <path fill="#e0bb75" d="M3 53h8v2H3Zm51 3h2v5h-2Z" />
+                  <path fill="#3e3037" d="M31 29h8v9h-8Z" />
+                  <path fill="#e8d39c" d="M34 31h2v4h-2Zm-1 3h4v2h-4Z" />
+                  <g class="chimney-puff" opacity="0" style="--puff-delay: -0s">
+                    <path fill="#e5dfbf" d="M42-2h8v2h2v6H40V0h2Z" />
+                  </g>
+                  <g class="chimney-puff" opacity="0" style="--puff-delay: -3s">
+                    <path fill="#e5dfbf" d="M42-2h8v2h2v6H40V0h2Z" />
+                  </g>
+                  <g class="chimney-puff" opacity="0" style="--puff-delay: -6s">
+                    <path fill="#e5dfbf" d="M42-2h8v2h2v6H40V0h2Z" />
+                  </g></svg></span
+              ><span class="place-label"
+                ><span class="place-name">Launch Harbor</span
+                ><span class="landmark-description">Product impact</span></span
+              ></a
+            >
+            <a
+              class="destination"
+              style="--x: 32.5%; --y: 43.42%"
+              href="#builds"
+              data-stop="builds"
+              aria-label="Build Mill: Faster builds"
+              ><span class="place landmark-art mill-art" aria-hidden="true"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="72"
+                  viewBox="0 0 64 72"
+                  shape-rendering="crispEdges"
+                >
+                  <path fill="#71824e" d="M8 63h48v5H8Z" />
+                  <path fill="#3e3037" d="M20 25h24v12h4v26H16V37h4Z" />
+                  <path fill="#e0cda0" d="M24 28h16v12h4v20H20V40h4Z" />
+                  <path fill="#b89f78" d="M37 29h3v11h4v20h-7Z" />
+                  <path fill="#3e3037" d="M18 27v-7h7v-6h14v6h7v7Z" />
+                  <path fill="#b55d45" d="M23 23v-3h18v3Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M27 48h10v15H27Zm-4-9h7v8h-7Zm13 0h7v8h-7Z"
+                  />
+                  <path
+                    class="window-light"
+                    fill="#a4c5b9"
+                    d="M25 41h3v4h-3Zm13 0h3v4h-3Z"
+                  />
+                  <g class="mill-sails">
+                    <path
+                      fill="#3e3037"
+                      d="M28 1h9v21h22v9H37v21h-9V31H6v-9h22Z"
+                    />
+                    <path
+                      fill="#eee0b4"
+                      d="M31 4h3v21h22v3H34v21h-3V28H9v-3h22Z"
+                    />
+                    <path
+                      fill="#c8ad7e"
+                      d="M28 4h3v4h-3Zm0 8h3v4h-3Zm0 8h3v3h-3Zm9 11h4v-3h-4Zm8 0h4v-3h-4Zm8 0h3v-3h-3Zm-19 4h3v4h-3Zm0 8h3v4h-3Zm-22-21h4v3h-4Zm8 0h4v3h-4Z"
+                    />
+                    <path fill="#3e3037" d="M28 22h9v9h-9Z" />
+                    <path fill="#c38c52" d="M31 25h3v3h-3Z" />
+                  </g></svg></span
+              ><span class="place-label"
+                ><span class="place-name">Build Mill</span
+                ><span class="landmark-description">Faster builds</span></span
+              ></a
+            >
+            <a
+              class="destination"
+              style="--x: 52%; --y: 25.66%"
+              href="#react"
+              data-stop="react"
+              aria-label="React Keep: React 16 → 18"
+              ><span class="place landmark-art keep-art" aria-hidden="true"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="72"
+                  viewBox="0 0 64 72"
+                  shape-rendering="crispEdges"
+                >
+                  <path fill="#71824e" d="M0 63h64v5H0Z" />
+                  <path fill="#3e3037" d="M4 18h18v12h20V18h18v45H4Z" />
+                  <path
+                    fill="#94a196"
+                    d="M8 22h10v34H8Zm38 0h10v34H46ZM20 34h24v25H20Z"
+                  />
+                  <path
+                    fill="#67796e"
+                    d="M15 22h3v34h-3Zm37 0h4v34h-4ZM38 34h6v25h-6Z"
+                  />
+                  <path
+                    fill="#3e3037"
+                    d="M4 10h5v5h4v-5h5v5h4v9H4Zm38 0h5v5h4v-5h5v5h4v9H42ZM22 26h5v4h5v-4h5v4h5v8H22Z"
+                  />
+                  <path
+                    fill="#3e3037"
+                    d="M11 29h5v10h-5Zm37 0h5v10h-5ZM26 45h12v18H26ZM29 41h6v4h-6Z"
+                  />
+                  <path
+                    fill="#78887a"
+                    d="M8 44h10v2H8Zm38 0h10v2H46ZM21 40h7v2h-7Zm15 0h7v2h-7ZM8 54h8v2H8Zm40 0h8v2h-8Z"
+                  />
+                  <path fill="#b09b75" d="M28 49h8v12h-8Z" />
+                  <path fill="#53483c" d="M30 49h2v12h-2Zm4 0h2v12h-2Z" />
+                  <path fill="#3e3037" d="M48 0h3v11h-3Z" />
+                  <g class="keep-flag" fill="#c9674a">
+                    <path d="M51 1h4v6h-4Z" />
+                    <path class="flag-middle" d="M55 1h4v6h-4Z" />
+                    <path
+                      class="flag-tip"
+                      fill="#db8055"
+                      d="M59 1h4v3h-3v3h-1Z"
+                    />
+                  </g></svg></span
+              ><span class="place-label"
+                ><span class="place-name">React Keep</span
+                ><span class="landmark-description">React 16 → 18</span></span
+              ></a
+            >
+            <a
+              class="destination"
+              style="--x: 65.5%; --y: 46.05%"
+              href="#state"
+              data-stop="state"
+              aria-label="Cache Springs: State & caching"
+              ><span class="place landmark-art springs-art" aria-hidden="true"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="72"
+                  viewBox="0 0 64 72"
+                  shape-rendering="crispEdges"
+                >
+                  <path fill="#71824e" d="M2 56h60v11H2Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M12 39v-9h6V18h10v-8h17v8h11v17h5v12H12Z"
+                  />
+                  <path
+                    fill="#89958a"
+                    d="M16 36v-5h6V22h10v-8h9v8h11v17h5v5H16Z"
+                  />
+                  <path fill="#a8b09a" d="M22 22h10v5H22Zm10-8h9v5h-9Z" />
+                  <path fill="#65796d" d="M45 22h7v17h5v5H43V28h2Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M13 43h38v4h10v13h-6v7H9v-7H3V47h10Z"
+                  />
+                  <path fill="#3f878a" d="M14 47h36v4h7v7h-6v5H13v-5H7v-7h7Z" />
+                  <path fill="#6eb9b5" d="M14 47h29v5H14Zm-3 5h12v7H11Z" />
+                  <path fill="#4d8f98" d="M29 28h13v26H29Z" />
+                  <path fill="#a1d3c3" d="M32 28h4v25h-4Z" />
+                  <path
+                    class="spring-water"
+                    fill="#d4e7ca"
+                    d="M32 32h4v3h-4Zm6 10h3v3h-3ZM27 55h11v2H27ZM42 58h8v2h-8Z"
+                  />
+                  <path fill="#3e3037" d="M4 33h6v11H4Zm47 5h8v9h-8Z" />
+                  <path
+                    fill="#4d7b45"
+                    d="M2 33h4v-6h4v6h3v7H2Zm49 5h4v-6h4v6h3v5H49Z"
+                  />
+                  <path
+                    class="spring-touch-ripple"
+                    d="M19 53h6v-2h14v2h6v5h-6v2H25v-2h-6Z"
+                    fill="none"
+                    stroke="#e0edd1"
+                    stroke-width="1"
+                    opacity="0"
+                  />
+                  <path
+                    class="spring-touch-ripple"
+                    d="M19 53h6v-2h14v2h6v5h-6v2H25v-2h-6Z"
+                    fill="none"
+                    stroke="#e0edd1"
+                    stroke-width="1"
+                    opacity="0"
+                  /></svg></span
+              ><span class="place-label"
+                ><span class="place-name">Cache Springs</span
+                ><span class="landmark-description">State & caching</span></span
+              ></a
+            >
+            <a
+              class="destination"
+              style="--x: 55.5%; --y: 63.82%"
+              href="#agents"
+              data-stop="agents"
+              aria-label="Agent Tower: AI agents"
+              ><span class="place landmark-art tower-art" aria-hidden="true"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="72"
+                  viewBox="0 0 64 72"
+                  shape-rendering="crispEdges"
+                >
+                  <path fill="#71824e" d="M11 64h44v4H11Z" />
+                  <path fill="#3e3037" d="M22 30h20v30h5v5H17v-5h5Z" />
+                  <path fill="#94a18b" d="M26 32h12v30H26Z" />
+                  <path fill="#697d6b" d="M34 32h4v30h-4Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M17 32h30v5H17Zm12 10h5v8h-5ZM28 56h7v9h-7Z"
+                  />
+                  <path fill="#bdd0aa" d="M30 44h2v4h-2Z" />
+                  <path fill="#cab689" d="M24 38h14v2H24Zm0 13h14v2H24Z" />
+                  <!-- Only the head moves; the lookout structure stays grounded. -->
+                  <g class="robot-head">
+                    <path fill="#3e3037" d="M30 5h4v9h-4Zm4-3h6v5h-6Z" />
+                    <path
+                      class="tower-beacon"
+                      fill="#c66d4f"
+                      d="M34 0h7v5h-7Z"
+                    />
+                    <path
+                      fill="#3e3037"
+                      d="M12 10h40v5h5v14h-5v6H12v-6H7V15h5Z"
+                    />
+                    <path fill="#aabca4" d="M16 13h32v19H16Z" />
+                    <path fill="#718d7a" d="M44 13h4v19h-4Z" />
+                    <path fill="#bcb496" d="M10 18h4v8h-4Zm40 0h4v8h-4Z" />
+                    <path fill="#d3d4b2" d="M16 13h28v3H16Z" />
+                    <path fill="#3e4840" d="M19 18h26v11H19Z" />
+                    <path
+                      class="robot-wink"
+                      fill="#9cd1bb"
+                      d="M22 20h6v4h-6Z"
+                    />
+                    <path class="robot-eye" fill="#9cd1bb" d="M36 20h6v4h-6Z" />
+                    <path fill="#d1d8af" d="M28 26h8v2h-8Z" />
+                    <path fill="#718d7a" d="M17 28h2v2h-2Zm28 0h2v2h-2Z" />
+                  </g></svg></span
+              ><span class="place-label"
+                ><span class="place-name">Agent Tower</span
+                ><span class="landmark-description">AI agents</span></span
+              ></a
+            >
+            <a
+              class="destination"
+              style="--x: 81.5%; --y: 75%"
+              href="#casehuddle"
+              data-stop="casehuddle"
+              aria-label="CaseHuddle Commons: Built from scratch"
+              ><span class="place landmark-art commons-art" aria-hidden="true"
+                ><svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="72"
+                  viewBox="0 0 64 72"
+                  shape-rendering="crispEdges"
+                >
+                  <path fill="#71824e" d="M0 62h64v6H0Z" />
+                  <path fill="#c3ae7d" d="M20 61h24v7H20Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M2 35h20v28H2Zm40 0h22v28H40ZM20 28h24v36H20Z"
+                  />
+                  <path
+                    fill="#d6c397"
+                    d="M6 37h12v23H6Zm38 0h16v23H44ZM24 31h16v29H24Z"
+                  />
+                  <path fill="#b1a17a" d="M14 37h4v23h-4Zm42 0h4v23h-4Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M0 36v-8h7v-6h15v7h-3v7ZM42 22h15v6h7v8H45v-7h-3ZM18 28v-8h7v-6h14v6h7v8Z"
+                  />
+                  <path
+                    fill="#b86449"
+                    d="M4 30h7v-4h7v6H4Zm42-4h7v4h7v2H46ZM22 22h7v-4h6v4h7v3H22Z"
+                  />
+                  <path fill="#d08960" d="M29 18h6v3h-6Z" />
+                  <path
+                    fill="#3e3037"
+                    d="M8 41h8v10H8Zm40 0h10v10H48ZM26 45h12v18H26Z"
+                  />
+                  <path
+                    class="window-light"
+                    fill="#a9c1aa"
+                    d="M10 43h4v6h-4Zm40 0h6v6h-6Z"
+                  />
+                  <path fill="#526451" d="M28 47h8v14h-8Z" />
+                  <path fill="#d2c192" d="M31 47h2v14h-2Z" />
+                  <path fill="#3e3037" d="M27 32h10v9H27Z" />
+                  <path fill="#d9d7b0" d="M29 34h6v3h-2v2h-2v-2h-2Z" />
+                  <path fill="#3e3037" d="M0 55h6v8H0Zm58 0h6v8h-6Z" />
+                  <path fill="#587c48" d="M0 53h6v6H0Zm58 0h6v6h-6Z" />
+                  <g class="commons-bubble commons-bubble-left" opacity="0">
+                    <path fill="#3e3037" d="M3 6h18v3h3v10h-6v5h-4v-5H0V9h3Z" />
+                    <path fill="#f0e4ba" d="M3 9h18v7h-6v4h-1v-4H3Z" />
+                    <path
+                      fill="#69765b"
+                      d="M6 11h2v2H6Zm5 0h2v2h-2Zm5 0h2v2h-2Z"
+                    />
+                  </g>
+                  <g class="commons-bubble commons-bubble-right" opacity="0">
+                    <path
+                      fill="#3e3037"
+                      d="M45 5h16v3h3v11H53v4h-4v-4h-7V8h3Z"
+                    />
+                    <path fill="#e3ecd0" d="M45 8h16v8H51v4h-1v-4h-5Z" />
+                    <path
+                      fill="#69765b"
+                      d="M48 11h2v2h-2Zm5 0h2v2h-2Zm5 0h2v2h-2Z"
+                    />
+                  </g></svg></span
+              ><span class="place-label"
+                ><span class="place-name">CaseHuddle Commons</span
+                ><span class="landmark-description"
+                  >Built from scratch</span
+                ></span
+              ></a
+            >
+          </nav>
+          <div class="traveler" id="traveler" aria-hidden="true"
+            ><svg
+              width="28"
+              height="38"
+              viewBox="0 0 14 19"
+              shape-rendering="crispEdges"
+            >
+              <path fill="#243d3c" d="M3 1h8v2h2v4H1V3h2Z" />
+              <path fill="#e8b47c" d="M3 7h8v5H3Z" />
+              <path fill="#263636" d="M8 8h2v2H8Z" />
+              <path fill="#f7d567" d="M2 12h10v5H2Z" />
+              <path fill="#875b3d" d="M0 13h3v4H0Z" />
+              <path fill="#263636" d="M3 17h3v2H3Zm5 0h3v2H8Z" /></svg
+            ><span></span
+          ></div>
+        </div>
+        <nav class="mobile-controls" aria-label="Island destinations">
+          <button
+            id="mobile-previous"
+            type="button"
+            aria-label="Previous destination"
+            >←</button
+          >
+          <button id="mobile-story" type="button" aria-haspopup="dialog"
+            ><strong id="mobile-place">Launch Harbor</strong
+            ><span id="mobile-description">Product impact</span></button
+          >
+          <button id="mobile-next" type="button" aria-label="Next destination"
+            >→</button
+          >
+        </nav>
+        <button
+          class="mobile-overview"
+          id="mobile-overview"
+          type="button"
+          aria-pressed="false"
+          >View island</button
+        >
+        <details class="work-menu"
+          ><summary>My work <span aria-hidden="true">⌃</span></summary>
+          <nav aria-label="Explore my work">
+            <a href="#product" data-work-link
+              ><strong>Product impact</strong
+              ><span>Launch Harbor · ~$1M / year</span></a
+            >
+            <a href="#builds" data-work-link
+              ><strong>Faster builds</strong
+              ><span>Build Mill · 2× faster dev builds</span></a
+            >
+            <a href="#react" data-work-link
+              ><strong>Frontend foundations</strong
+              ><span>React Keep · React 16 → 18</span></a
+            >
+            <a href="#state" data-work-link
+              ><strong>State &amp; caching</strong
+              ><span>Cache Springs · −60% repeat API calls</span></a
+            >
+            <a href="#agents" data-work-link
+              ><strong>AI agents</strong
+              ><span>Agent Tower · QA &amp; feedback</span></a
+            >
+            <a href="#casehuddle" data-work-link
+              ><strong>CaseHuddle</strong
+              ><span>CaseHuddle Commons · Product &amp; privacy</span></a
+            >
+          </nav></details
+        >
+        <details class="map-menu"
+          ><summary aria-label="Map settings">☰</summary
+          ><div
+            ><button id="motion" type="button" aria-pressed="false"
+              >Pause motion</button
+            ><button id="credits-open" type="button">Art credits</button></div
+          ></details
+        >
+      </section>
+    </main>
+    <div class="clouds-layer" aria-hidden="true"
+      ><svg
+        viewBox="0 0 1000 760"
+        width="1000"
+        height="760"
+        focusable="false"
+        shape-rendering="crispEdges"
+      >
+        <g fill="#fff2d1" opacity=".8">
+          <g transform="translate(172 100) scale(1.15) translate(-172 -100)">
+            <path
+              d="M128 108h8V96h8v-8h12V76h20v8h12v-4h16v12h8v8h8v8h-4v8h-88Z"
+            />
+            <path d="M128 108h88v8h-88Z" fill="#dce1c6" />
+          </g>
+          <g transform="translate(784 117) scale(1.15) translate(-784 -117)">
+            <path
+              d="M734 121h8v-12h12V97h16V87h20v8h16v8h12v10h12v12h-6v10h-90Z"
+            />
+            <path d="M734 127h90v8h-90Z" fill="#dce1c6" />
+          </g>
+          <g transform="translate(380 670) scale(1.15) translate(-380 -670)">
+            <path
+              d="M332 674h8v-10h12v-10h16v-12h20v8h12v8h12v8h12v10h-4v10h-88Z"
+            />
+            <path d="M332 678h88v8h-88Z" fill="#dce1c6" />
+          </g>
+        </g></svg
+    ></div>
+    <dialog class="story-panel" id="story" aria-labelledby="story-title">
+      <button
+        id="story-close"
+        class="story-close"
+        type="button"
+        aria-label="Close story"
+        >×</button
+      >
+      <div id="story-content"></div>
+      <div class="panel-bottom"
+        ><a href="mailto:hasancan.ugurlu@gmail.com"
+          >Let’s talk <span aria-hidden="true">↗</span></a
+        ><a href="https://github.com/HasanCanUgurlu">GitHub ↗</a
+        ><a href="https://www.linkedin.com/in/hasancanugurlu/"
+          >LinkedIn ↗</a
+        ></div
+      >
+    </dialog>
+    <p id="announcement" class="sr-only" role="status"></p>
+    <dialog id="credits" aria-labelledby="credits-title"
+      ><form method="dialog"
+        ><button class="close" aria-label="Close credits">×</button></form
+      ><p class="eyebrow">THE PEOPLE BEHIND THE PIXELS</p
+      ><h2 id="credits-title">A little credit.</h2
+      ><p
+        >Tree sprites from
+        <a href="https://kenney.nl/assets/tiny-town">Tiny Town by Kenney</a>,
+        released under CC0. Terrain, landmarks, and the traveler are custom
+        website artwork.</p
+      ><p
+        >Bunny sprites by <a href="https://duckhive.itch.io/bunny">Duckhive</a>,
+        released under CC0. Original idle, walk, and turn frames are used.</p
+      ><p
+        >Press Start 2P by CodeMan38, licensed under the SIL Open Font
+        License.</p
+      ><p
+        ><a href="assets/Kenney-license.txt">Asset license</a> ·
+        <a href="assets/Font-license.txt">Font license</a></p
+      ></dialog
+    >
+    <noscript
+      ><div class="no-js"
+        >This interactive map needs JavaScript. You can still
+        <a href="../resume.pdf">read my resume</a> or
+        <a href="mailto:hasancan.ugurlu@gmail.com">email me</a>.</div
+      ></noscript
+    >
+  </body></html
+>
